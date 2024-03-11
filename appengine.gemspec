@@ -42,7 +42,7 @@ require "appengine/version"
   spec.required_ruby_version = ">= 2.5.0"
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "google-cloud-env", "~> 1.4"
+  spec.add_dependency "google-cloud-env", "~> 2.1"
   spec.add_dependency "google-serverless-exec", ">= 0.1", "< 2.a"
   spec.add_dependency "stackdriver", "~> 0.21"
 
